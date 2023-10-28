@@ -1,0 +1,13 @@
+class Book:
+    def __init__(self,author,title):
+        self.author = author
+        self.title = title
+
+    def info (self):
+       print(self.title + ':' + self.author)
+       
+x = Book('GAYLE LAAKMANN MCDOWELL','Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions') 
+x.info()               # Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions:GAYLE LAAKMANN MCDOWELL
+
+
+print('-------------')
